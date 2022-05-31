@@ -5,7 +5,10 @@ body {
   font-family: var(--main-font-family);
   width: 1024px;
 }
-
+:root {
+  --main-font-family: "Roboto", sans-serif;
+}
+/* коробочка з короткою інформацією про щось*/
 .themeslorem {
   width: 322px;
   height: 52px;
@@ -26,6 +29,7 @@ body {
 .themes {
   display: flex;
   gap: 25px;
+  margin-left: 57px;
 }
 h3 {
   text-align: center;
@@ -40,7 +44,7 @@ h3 {
   background: #2ecc71;
 }
 .thc1 {
-  background-image: url(./icon1.png);
+  background-image: url(./images/icon1.png);
   background-repeat: no-repeat;
   align-items: center;
 }
@@ -48,14 +52,15 @@ h3 {
   align-items: center;
 }
 .thc2 {
-  background-image: url(./icon.png);
+  background-image: url(./images/icon.png);
   background-repeat: no-repeat;
   align-items: center;
 }
 .thc3 {
-  background-image: url(./Vector.png);
+  background-image: url(./images/Vector.png);
   background-repeat: no-repeat;
 }
+/*кінець коробочки з короткою інформацією про щось*/
 
 /*синя коробочка, початок*/
 .getnot {
@@ -73,9 +78,32 @@ h3 {
 
   color: #696969;
 }
-.getnotph {
-  background-image: url(./video.png);
-  width: auto;
-  height: auto;
+
+.imggetnot {
+  background-image: url(./images/video.png);
 }
+.h3getnot {
+  text-align: left;
+}
+.getnotbutton {
+  width: 400px;
+  height: 55px;
+  background: #ffffff;
+  border: 1px solid #b7b7b7;
+  border-radius: 15px 0px 0px 15px;
+}
+.getnotbutton2 {
+  width: 121px;
+  height: 55px;
+  left: 429px;
+  top: 1196px;
+
+  background: #2ecc71;
+  border-radius: 0px 15px 15px 0px;
+  border-color: white;
+}
+.getnotbuttonall {
+  gap: 0px;
+}
+
 /*синя коробочка, кінець*/
